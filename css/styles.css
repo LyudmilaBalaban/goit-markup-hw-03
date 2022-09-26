@@ -184,7 +184,6 @@ button {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-
   text-transform: uppercase;
 }
 
@@ -409,8 +408,8 @@ address .link:focus {
   margin-right: 8px;
 }
 
-.page-list .item:nth-child(5n) {
-  margin-right: 0px;
+.some-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .portfolio-hero {
