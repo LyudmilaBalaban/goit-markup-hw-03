@@ -222,9 +222,12 @@ button {
   margin-bottom: 10px;
 }
 
+.features {
+  padding-top: 94px;
+}
+
 .features-list {
   display: flex;
-  padding-top: 94px;
 }
 
 .features-list .item:not(:last-child) {
@@ -245,13 +248,16 @@ button {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.work {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .work-list {
   display: flex;
-  padding-bottom: 94px;
   padding-left: 0;
 }
 
@@ -279,18 +285,22 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.team-list .text {
+.team .text {
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .team-list {
   display: flex;
-  padding-bottom: 94px;
   padding-left: 0;
 }
 
@@ -313,12 +323,13 @@ button {
 
 .footer {
   background-color: var(--bg-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
-  padding-top: 60px;
 
   color: var(--accent-text-color);
   font-family: "Raleway";
@@ -339,7 +350,6 @@ button {
 
 .menu-list {
   padding-left: 0;
-  padding-bottom: 60px;
 }
 
 .menu-list .item:not(:last-child) {
@@ -383,14 +393,9 @@ address .link:focus {
   line-height: 1.62;
 }
 
-.modal-btn-list {
-  margin-right: 8px;
-}
-
 .page-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -398,6 +403,19 @@ address .link:focus {
 .modal-btn-list:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-text-color);
+}
+
+.page-list .item {
+  margin-right: 8px;
+}
+
+.page-list .item:nth-child(5n) {
+  margin-right: 0px;
+}
+
+.portfolio-hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-title {
@@ -423,9 +441,6 @@ address .link:focus {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border: 1px solid #eeeeee;
-  border-top: none;
 }
 
 .portfolio-list .item:nth-child(3n) {
@@ -438,4 +453,6 @@ address .link:focus {
 
 .card-title {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
